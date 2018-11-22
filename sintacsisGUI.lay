@@ -1,0 +1,13 @@
+LAYOUT(sintacsisGUILayout, 508, 624)
+	ITEM(LineEdit, editSout, LeftPosZ(8, 492).TopPosZ(272, 120))
+	ITEM(LineEdit, outstat, LeftPosZ(8, 492).TopPosZ(456, 120))
+	ITEM(LineEdit, editSinp, LeftPosZ(8, 492).TopPosZ(36, 168))
+	ITEM(Button, BtDb, SetLabel(t_("Вывод содержимого БД")).LeftPosZ(264, 156).TopPosZ(408, 36))
+	ITEM(Button, BtoutMan, SetLabel(t_("Показать спец.обохначение")).LeftPosZ(92, 156).TopPosZ(408, 36))
+	ITEM(Button, BtStartdocx, SetLabel(t_("Ввод данных из docx")).LeftPosZ(340, 156).TopPosZ(220, 36))
+	ITEM(Button, BtStarttxt, SetLabel(t_("Ввод данных из txt")).LeftPosZ(176, 156).TopPosZ(220, 36))
+	ITEM(Button, BtStart, SetLabel(t_("Ввод данных с консоли")).LeftPosZ(12, 156).TopPosZ(220, 36))
+	ITEM(Label, dv___8, SetLabel(t_("Выполнил: студент М30-214M-17 ****")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(9)).LeftPosZ(276, 220).TopPosZ(596, 20))
+	ITEM(Label, dv___9, SetLabel(t_("Синтаксический анализатор текст на русском языке")).SetAlign(ALIGN_CENTER).LeftPosZ(8, 492).TopPosZ(4, 28))
+END_LAYOUT
+
